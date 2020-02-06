@@ -1,0 +1,23 @@
+#!/bin/sh
+wget http://visualgenome.org/static/data/dataset/objects.json.zip
+wget http://visualgenome.org/static/data/dataset/object_alias.txt
+wget http://visualgenome.org/static/data/dataset/object_synsets.json.zip
+wget http://visualgenome.org/static/data/dataset/relationships.json.zip
+wget http://visualgenome.org/static/data/dataset/relationship_alias.txt
+wget http://visualgenome.org/static/data/dataset/relationship_synsets.json.zip
+wget http://visualgenome.org/static/data/dataset/attributes.json.zip
+wget http://visualgenome.org/static/data/dataset/attribute_synsets.json.zip
+unzip objects.json.zip
+unzip object_alias.json.zip
+unzip object_synsets.json.zip
+unzip relationships.json.zip
+unzip relationship_alias.json.zip
+unzip relationship_synsets.json.zip
+unzip attributes.json.zip
+unzip attribute_synsets.json.zip
+rm objects.json.zip
+rm object_synsets.json.zip
+rm relationships.json.zip
+rm relationship_synsets.json.zip
+rm attributes.json.zip
+rm attribute_synsets.json.zip

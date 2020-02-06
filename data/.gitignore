@@ -69,3 +69,6 @@ target/
 
 # Dataset files
 *.json
+*.txt
+VG_100K/
+VG_100K_2/
